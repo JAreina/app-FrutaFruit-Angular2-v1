@@ -1,0 +1,38 @@
+button{
+    position: relative;
+    top:68px;
+    font-size: 1.5em;
+}
+
+.ser{
+    background-color:#D53D48 ;
+    padding:20%;
+    text-align: center;
+}
+.soy{
+    background-color:#FF6C00 ;
+    padding:20%;
+    margin-top:6px;
+    text-align: center;
+}
+
+@media(max-width: 660px) { 
+    button{
+        position: absolute;
+        top:45px;
+        font-size: 1.5em;
+        
+       
+    }
+    .ser,.soy{
+        padding:10px;
+        
+        
+    }
+    .ser a, .soy a{
+        font-size:.8em;
+    }
+ }
+
+
+

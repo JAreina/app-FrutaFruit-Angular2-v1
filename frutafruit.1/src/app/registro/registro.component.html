@@ -1,0 +1,23 @@
+
+<div [class]="usuarioOculto" 
+(mouseenter) ="mostrar()"
+ >
+  <button type="button" class="btn btn-link">
+       <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+  </button>
+  </div>
+
+
+<div class="{{oculto }}" (mouseleave) ="ocultar()">
+  <div class="row ser">
+      <div class="col-xs-12  ">
+        <a href="#">Ser cliente</a>
+      </div>
+  </div>
+  <div class="row soy ">
+      <div class="col-xs-12   ">
+        <a href="#">Soy cliente</a>
+      </div>
+  </div>
+<div>
+
